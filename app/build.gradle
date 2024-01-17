@@ -3,10 +3,6 @@ android {
     compileSdkVersion 31
     buildToolsVersion '22.0.1'
 
-    sourceSets {
-        main.java.srcDirs += 'C:/Android/PD-classes-master/PD-classes-master/com/watabou'
-    }
-
 
     defaultConfig {
         applicationId "com.udawos.pioneer"
