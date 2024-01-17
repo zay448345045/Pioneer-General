@@ -1,71 +1,85 @@
 -- Merging decision tree log ---
 manifest
-ADDED from AndroidManifest.xml:2:1
+ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:2:1-41:12
 	package
-		ADDED from AndroidManifest.xml:3:2
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
+		ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:3:2-30
+		INJECTED from E:\Pioneer-General\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Pioneer-General\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from AndroidManifest.xml:5:2
-	android:versionCode
-		ADDED from AndroidManifest.xml:4:2
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
+		ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:5:2-25
+		INJECTED from E:\Pioneer-General\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Pioneer-General\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from AndroidManifest.xml:2:11
+		ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:4:2-26
+		INJECTED from E:\Pioneer-General\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Pioneer-General\app\src\main\AndroidManifest.xml
 	android:installLocation
-		ADDED from AndroidManifest.xml:6:2
+		ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:6:2-32
 uses-permission#android.permission.VIBRATE
-ADDED from AndroidManifest.xml:8:5
+ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:8:5-65
 	android:name
-		ADDED from AndroidManifest.xml:8:22
+		ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:8:22-63
 uses-sdk
-ADDED from AndroidManifest.xml:10:2
+ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:10:2-12:37
+INJECTED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:10:2-12:37
+INJECTED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:10:2-12:37
+INJECTED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:10:2-12:37
+INJECTED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:10:2-12:37
 	android:targetSdkVersion
-		ADDED from AndroidManifest.xml:12:6
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
+		ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:12:6-35
+		INJECTED from E:\Pioneer-General\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Pioneer-General\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from AndroidManifest.xml:11:6
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
+		ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:11:6-31
+		INJECTED from E:\Pioneer-General\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Pioneer-General\app\src\main\AndroidManifest.xml
 uses-feature#0x00020000
-ADDED from AndroidManifest.xml:14:2
+ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:14:2-15:40
 	android:glEsVersion
-		ADDED from AndroidManifest.xml:15:6
+		ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:15:6-38
 supports-screens
-ADDED from AndroidManifest.xml:17:2
+ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:17:2-20:35
 	android:largeScreens
-		ADDED from AndroidManifest.xml:20:6
+		ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:20:6-33
 	android:smallScreens
-		ADDED from AndroidManifest.xml:18:6
+		ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:18:6-34
 	android:normalScreens
-		ADDED from AndroidManifest.xml:19:6
+		ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:19:6-34
 application
-ADDED from AndroidManifest.xml:23:2
+ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:23:2-39:16
 	android:label
-		ADDED from AndroidManifest.xml:25:3
-	android:allowBackup
-		ADDED from AndroidManifest.xml:27:3
+		ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:25:3-26
 	android:icon
-		ADDED from AndroidManifest.xml:24:3
+		ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:24:3-39
+	android:allowBackup
+		ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:27:3-30
 	android:theme
-		ADDED from AndroidManifest.xml:26:3
+		ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:26:3-67
 activity#com.udawos.pioneer.Pioneer
-ADDED from AndroidManifest.xml:29:3
+ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:29:3-38:14
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:32:4
+		ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:33:4-40
 	android:label
-		ADDED from AndroidManifest.xml:30:4
+		ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:30:4-27
+	android:exported
+		ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:31:4-27
 	android:name
-		ADDED from AndroidManifest.xml:31:4
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:33:4
+		ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:32:4-27
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:34:4-37:20
 action#android.intent.action.MAIN
-ADDED from AndroidManifest.xml:34:5
+ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:35:5-57
 	android:name
-		ADDED from AndroidManifest.xml:34:13
+		ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:35:13-54
 category#android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:35:5
+ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:36:5-65
 	android:name
-		ADDED from AndroidManifest.xml:35:15
+		ADDED from E:\Pioneer-General\app\src\main\AndroidManifest.xml:36:15-62
