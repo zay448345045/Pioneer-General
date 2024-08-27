@@ -43,6 +43,50 @@ import javax.microedition.khronos.opengles.GL10;
 
 public class Pioneer extends Game {
 	
+public static void toolbarMode(String value) {
+		Preferences.INSTANCE.put(Preferences.KEY_BARMODE, value);
+	}
+
+	public static String toolbarMode() {
+		return Preferences.INSTANCE.getString(Preferences.KEY_BARMODE, !landscape() ? "SPLIT" : "GROUP");
+	}
+
+	public static boolean flipToolbar() {
+		return Preferences.INSTANCE.getBoolean(Preferences.KEY_FLIPTOOLBAR, false);
+	}
+
+	public static void flipToolbar(boolean value) {
+		Preferences.INSTANCE.put(Preferences.KEY_FLIPTOOLBAR, value);
+	}
+
+	public static void classicFont(boolean classic) {
+		Preferences.INSTANCE.put(Preferences.KEY_CLASSICFONT, classic);
+		if (classic) {
+			RenderedText.setFont(Assets.FONT);
+		} else {
+			RenderedText.setFont(null);
+		}
+	}
+
+	public static boolean classicFont() {
+		return Preferences.INSTANCE.getBoolean(Preferences.KEY_CLASSICFONT,
+				(language() != Languages.CHINESE));
+	}
+
+	public static void language(Languages lang) {
+		Preferences.INSTANCE.put(Preferences.KEY_LANG, lang.code());
+	}
+
+	public static Languages language() {
+		String code = Preferences.INSTANCE.getString(Preferences.KEY_LANG, null);
+		if (code == null){
+			return Languages.matchLocale(Locale.getDefault());
+		} else {
+			return Languages.matchCode(code);
+		}
+	}
+
+
 	public Pioneer() {
 		super( TitleScene.class );
 		
