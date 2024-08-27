@@ -37,6 +37,8 @@ import com.udawos.pioneer.scenes.GameScene;
 import com.udawos.pioneer.scenes.PixelScene;
 import com.udawos.pioneer.scenes.TitleScene;
 
+import java.util.Locale;
+
 import javax.microedition.khronos.opengles.GL10;
 
 public class Pioneer extends Game {
