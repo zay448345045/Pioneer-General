@@ -1,7 +1,7 @@
 package com.udawos.pioneer.Messages;
 
 
-import com.udawos.pioneer.ShatteredPixelDungeon;
+import com.udawos.pioneer.Pioneer;
 import com.udawos.pioneer.utils.GLog;
 
 import java.util.Arrays;
