@@ -22,8 +22,9 @@ import com.udawos.pioneer.Pioneer;
 import com.udawos.pioneer.scenes.PixelScene;
 import com.udawos.pioneer.ui.Window;
 
-import com.udawos.pioneer.pioneer;
+/*import com.udawos.pioneer.pioneer;
 import com.udawos.pioneer.ui.RenderedTextMultiline;
+*/
 
 public class WndMessage extends Window {
 	
