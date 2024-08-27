@@ -36,6 +36,10 @@ import com.udawos.pioneer.ui.PrefsButton;
 
 import javax.microedition.khronos.opengles.GL10;
 
+import com.udawos.pioneer.Messages.Messages;
+import com.udawos.pioneer.ui.LanguageButton;
+import com.udawos.noosa.RenderedText;
+
 public class TitleScene extends PixelScene {
 
 	private static final String TXT_PLAY		= "Play";
